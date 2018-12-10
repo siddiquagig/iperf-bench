@@ -3,8 +3,6 @@
 #
 # Launch IPerf server in daemon mode (requires Iperf 3.1 or above).
 # Can be used with cron to continuously check daemon and respawn if necessary.
-# Author: Dario Vianello (dario@ebi.ac.uk)
-#
 # Please remember to set the correct timezone on the server running this script.
 # To add the cron job to the server use:
 # (crontab -l ; echo "*/1 * * * * ~/iperf_server.py") | crontab -
