@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Launch IPerf client with a set of predefined parameters
-# Can be used with cron to continuously query a server.
-# Author: Dario Vianello (dario@ebi.ac.uk)
-#
+# Can be used with cron to continuously query a server
 # Please remember to set the correct timezone on the server running this script.
 # To add the cron job to the server use:
 # (crontab -l ; echo "*/5 * * * * ~/iperf_client.py") | crontab -
